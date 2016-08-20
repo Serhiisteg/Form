@@ -7,8 +7,12 @@
 <body>
     <form action="https://formspree.io/klamozxc@gmail.com"
       method="POST">
-        <input type="text" name="name">
-        <input type="email" name="mail">
+        <label for="name">Your name</label>
+        <input type="text" name="name"><br>
+        <label for="email">Your email</label>
+        <input type="email" name="mail" id="email"><br>
+        <label for="passpord">Your pasport</label>
+        <input type="text" name="passport" pattern="[A-Z](2)[0-9](6)" required>
         <input type="submit" value="Send">
     </form>
 </body>
